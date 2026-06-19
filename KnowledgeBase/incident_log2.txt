@@ -1,0 +1,114 @@
+2026-06-22 08:00:03 INFO  System startup completed successfully
+2026-06-22 08:01:15 INFO  Authentication service initialized
+2026-06-22 08:02:44 INFO  User alice.turner logged in successfully from 192.168.10.11
+2026-06-22 08:03:22 INFO  User bob.harris logged in successfully from 192.168.10.15
+2026-06-22 08:04:11 INFO  User carol.white logged in successfully from 192.168.10.18
+2026-06-22 08:05:30 INFO  Background job completed: daily_backup_verification
+2026-06-22 08:06:48 INFO  User alice.turner accessed project management dashboard
+2026-06-22 08:07:55 INFO  User bob.harris accessed HR records portal
+2026-06-22 08:09:10 INFO  Scheduled vulnerability scan initiated
+2026-06-22 08:10:33 INFO  User carol.white accessed financial reporting module
+2026-06-22 08:12:01 INFO  User david.nguyen logged in successfully from 192.168.10.22
+2026-06-22 08:13:17 INFO  User david.nguyen accessed development environment
+2026-06-22 08:14:45 INFO  Vulnerability scan completed: 0 critical findings
+2026-06-22 08:16:02 INFO  User alice.turner downloaded Q1 project report
+2026-06-22 08:17:29 WARN  User bob.harris attempted to access payroll module without authorization
+2026-06-22 08:17:52 INFO  Access denied for bob.harris on payroll module
+2026-06-22 08:18:40 INFO  User carol.white generated monthly financial summary
+2026-06-22 08:20:14 INFO  User eve.martinez logged in successfully from 192.168.10.33
+2026-06-22 08:21:38 INFO  User eve.martinez accessed customer database
+2026-06-22 08:23:05 INFO  User david.nguyen committed code to repository dev-branch-07
+2026-06-22 08:25:19 INFO  User alice.turner shared project report with team
+2026-06-22 08:27:44 INFO  Scheduled log rotation completed
+2026-06-22 08:30:00 INFO  System health check passed
+2026-06-22 08:32:15 WARN  User bob.harris attempted to access payroll module without authorization
+2026-06-22 08:32:38 INFO  Access denied for bob.harris on payroll module
+2026-06-22 08:33:55 WARN  Repeated unauthorized access attempt by bob.harris on restricted module
+2026-06-22 08:34:20 INFO  Security alert generated: ALERT-2001
+2026-06-22 08:34:45 INFO  Alert ALERT-2001 assigned severity Low
+2026-06-22 08:36:02 INFO  User eve.martinez exported customer contact list
+2026-06-22 08:37:30 INFO  User carol.white logged out successfully
+2026-06-22 08:39:11 INFO  User frank.wilson logged in successfully from 192.168.10.40
+2026-06-22 08:40:28 INFO  User frank.wilson accessed IT asset inventory
+2026-06-22 08:42:13 WARN  User bob.harris accessed USB storage device on workstation WS-HR-04
+2026-06-22 08:42:41 WARN  File copy to USB detected: performance_review_2026.xlsx
+2026-06-22 08:43:08 WARN  File copy to USB detected: employee_contracts_archive.zip
+2026-06-22 08:43:35 ERROR Sensitive data copied to removable media by bob.harris
+2026-06-22 08:44:02 INFO  Security alert generated: ALERT-2002
+2026-06-22 08:44:29 INFO  Alert ALERT-2002 assigned severity High
+2026-06-22 08:45:50 INFO  User alice.turner updated project timeline
+2026-06-22 08:47:03 WARN  User bob.harris initiated large file archive on local drive
+2026-06-22 08:47:28 WARN  Archive created: confidential_hr_export_20260622.zip (2.3 GB)
+2026-06-22 08:48:01 ERROR Unusually large archive created by bob.harris on HR workstation
+2026-06-22 08:48:30 INFO  Security alert generated: ALERT-2003
+2026-06-22 08:49:00 INFO  Alert ALERT-2003 assigned severity High
+2026-06-22 08:50:22 INFO  User david.nguyen pushed code changes to production pipeline
+2026-06-22 08:52:11 WARN  User bob.harris connected to external file sharing service: dropshare-ext.net
+2026-06-22 08:52:44 WARN  Outbound data transfer detected to dropshare-ext.net (450 MB)
+2026-06-22 08:53:12 ERROR Unauthorized data exfiltration suspected for bob.harris
+2026-06-22 08:53:40 INFO  Security alert generated: ALERT-2004
+2026-06-22 08:54:05 INFO  Alert ALERT-2004 assigned severity Critical
+2026-06-22 08:55:18 INFO  User frank.wilson completed IT asset audit
+2026-06-22 08:56:44 INFO  User eve.martinez updated customer records
+2026-06-22 08:58:20 WARN  Unknown process detected on workstation WS-HR-04: svchost32.exe
+2026-06-22 08:58:49 WARN  Process svchost32.exe initiated network scan on internal subnet
+2026-06-22 08:59:17 ERROR Suspicious process performing internal reconnaissance on WS-HR-04
+2026-06-22 08:59:45 INFO  Security alert generated: ALERT-2005
+2026-06-22 09:00:10 INFO  Alert ALERT-2005 assigned severity Critical
+2026-06-22 09:01:33 WARN  Process svchost32.exe attempted connection to C2 server 45.134.26.188
+2026-06-22 09:02:01 WARN  Outbound connection blocked by firewall to 45.134.26.188
+2026-06-22 09:02:30 ERROR Command and control communication attempt detected from WS-HR-04
+2026-06-22 09:03:00 INFO  Security alert generated: ALERT-2006
+2026-06-22 09:03:28 INFO  Alert ALERT-2006 assigned severity Critical
+2026-06-22 09:04:45 INFO  User alice.turner logged out successfully
+2026-06-22 09:05:12 WARN  Encryption activity detected on WS-HR-04: multiple files renamed with .locked extension
+2026-06-22 09:05:40 WARN  Files affected: performance_review_2026.xlsx.locked, hr_policy_2026.docx.locked
+2026-06-22 09:06:08 WARN  Files affected: employee_records_backup.zip.locked, payroll_summary.xlsx.locked
+2026-06-22 09:06:36 ERROR Ransomware-like file encryption activity detected on WS-HR-04
+2026-06-22 09:07:04 INFO  Security alert generated: ALERT-2007
+2026-06-22 09:07:32 INFO  Alert ALERT-2007 assigned severity Critical
+2026-06-22 09:08:50 WARN  Encryption activity spreading to shared network drive HR-SHARE-01
+2026-06-22 09:09:18 WARN  Files on HR-SHARE-01 being renamed with .locked extension
+2026-06-22 09:09:46 ERROR Ransomware lateral movement detected to network share HR-SHARE-01
+2026-06-22 09:10:14 INFO  Security alert generated: ALERT-2008
+2026-06-22 09:10:42 INFO  Alert ALERT-2008 assigned severity Critical
+2026-06-22 09:11:55 INFO  User david.nguyen logged out successfully
+2026-06-22 09:12:30 WARN  Ransom note file detected on WS-HR-04: README_DECRYPT.txt
+2026-06-22 09:13:00 ERROR Ransomware infection confirmed on WS-HR-04
+2026-06-22 09:13:30 INFO  Security alert generated: ALERT-2009
+2026-06-22 09:14:00 INFO  Alert ALERT-2009 assigned severity Critical
+2026-06-22 09:15:18 INFO  Security analyst sec.analyst logged in from 192.168.10.55
+2026-06-22 09:16:05 INFO  Security analyst opened alert ALERT-2004
+2026-06-22 09:16:44 INFO  Security analyst opened alert ALERT-2007
+2026-06-22 09:17:22 INFO  Security analyst opened alert ALERT-2009
+2026-06-22 09:18:10 WARN  Security analyst isolated workstation WS-HR-04 from network
+2026-06-22 09:18:48 WARN  Security analyst disabled account bob.harris
+2026-06-22 09:19:25 INFO  Active sessions terminated for bob.harris
+2026-06-22 09:20:02 INFO  Network share HR-SHARE-01 taken offline for forensic analysis
+2026-06-22 09:20:40 INFO  Endpoint detection scan initiated on all workstations
+2026-06-22 09:21:18 WARN  Endpoint scan found svchost32.exe on 2 additional workstations: WS-FIN-02, WS-IT-07
+2026-06-22 09:21:56 ERROR Malware spread confirmed to WS-FIN-02 and WS-IT-07
+2026-06-22 09:22:34 INFO  Security alert generated: ALERT-2010
+2026-06-22 09:23:12 INFO  Alert ALERT-2010 assigned severity Critical
+2026-06-22 09:24:00 INFO  WS-FIN-02 isolated from network
+2026-06-22 09:24:38 INFO  WS-IT-07 isolated from network
+2026-06-22 09:25:16 INFO  Malware sample svchost32.exe submitted to threat intelligence platform
+2026-06-22 09:26:00 WARN  Threat intelligence match found: LockBit 3.0 variant
+2026-06-22 09:26:45 ERROR Ransomware identified as LockBit 3.0 variant
+2026-06-22 09:27:30 INFO  Security alert generated: ALERT-2011
+2026-06-22 09:28:15 INFO  Alert ALERT-2011 assigned severity Critical
+2026-06-22 09:29:00 INFO  Backup verification initiated for HR-SHARE-01
+2026-06-22 09:30:10 INFO  Last clean backup found: 2026-06-21 23:00:00
+2026-06-22 09:31:05 INFO  Restore procedure initiated from 2026-06-21 backup
+2026-06-22 09:32:20 INFO  IT team notified for full incident response activation
+2026-06-22 09:33:45 INFO  Management notified of ransomware incident
+2026-06-22 09:35:00 INFO  Legal and compliance team notified per data breach protocol
+2026-06-22 09:36:30 INFO  External forensics team engaged
+2026-06-22 09:38:00 INFO  Incident ticket created: INC-2026-0002
+2026-06-22 09:39:15 INFO  All affected systems documented for forensic preservation
+2026-06-22 09:40:00 INFO  Incident containment phase completed
+2026-06-22 09:41:30 WARN  DLP system flagged 450 MB exfiltration event retrospectively confirmed
+2026-06-22 09:42:45 INFO  Data breach assessment initiated per GDPR Article 33
+2026-06-22 09:44:00 INFO  Regulatory notification timeline started: 72-hour window
+2026-06-22 09:45:30 INFO  Full incident response team assembled
+2026-06-22 09:47:00 INFO  Post-incident review scheduled for 2026-06-23 09:00

@@ -1,0 +1,36 @@
+{"timestamp": "2026-06-19T12:25:37.932527+00:00", "agent": "Research Agent", "level": "INFO", "message": "Research Agent started", "query": "Analyze ransomware indicators and data exfiltration"}
+{"timestamp": "2026-06-19T12:25:39.067234+00:00", "agent": "Research Agent", "level": "INFO", "message": "Research Agent completed", "duration": 1.13}
+{"timestamp": "2026-06-19T12:25:39.072425+00:00", "agent": "Incident Agent", "level": "INFO", "message": "Incident Agent started", "query": "Analyze ransomware indicators and data exfiltration"}
+{"timestamp": "2026-06-19T12:25:39.073021+00:00", "agent": "Root Cause Agent", "level": "INFO", "message": "Root Cause Agent started", "query": "Analyze ransomware indicators and data exfiltration"}
+{"timestamp": "2026-06-19T12:25:39.074477+00:00", "agent": "Risk Agent", "level": "INFO", "message": "Risk Agent started", "query": "Analyze ransomware indicators and data exfiltration"}
+{"timestamp": "2026-06-19T12:25:59.058261+00:00", "agent": "Root Cause Agent", "level": "INFO", "message": "Root Cause Agent completed", "duration": 19.99}
+{"timestamp": "2026-06-19T12:25:59.176233+00:00", "agent": "Incident Agent", "level": "INFO", "message": "Incident Agent completed", "duration": 20.1}
+{"timestamp": "2026-06-19T12:26:07.681441+00:00", "agent": "Risk Agent", "level": "INFO", "message": "Risk Agent completed", "duration": 28.61}
+{"timestamp": "2026-06-19T12:26:09.040208+00:00", "agent": "Reviewer Agent", "level": "INFO", "message": "Reviewer Agent started", "query": "Analyze ransomware indicators and data exfiltration"}
+{"timestamp": "2026-06-19T12:26:33.413124+00:00", "agent": "Reviewer Agent", "level": "INFO", "message": "Reviewer Agent completed", "duration": 24.37}
+{"timestamp": "2026-06-19T12:26:33.414919+00:00", "agent": "Report Writer Agent", "level": "INFO", "message": "Report Writer Agent started", "query": "Analyze ransomware indicators and data exfiltration"}
+{"timestamp": "2026-06-19T12:27:07.854133+00:00", "agent": "Report Writer Agent", "level": "INFO", "message": "Report Writer Agent completed", "duration": 34.44}
+{"timestamp": "2026-06-19T12:31:45.529446+00:00", "agent": "Research Agent", "level": "INFO", "message": "Research Agent started", "query": "Suspicious insider activity & data theft"}
+{"timestamp": "2026-06-19T12:31:46.600617+00:00", "agent": "Research Agent", "level": "INFO", "message": "Research Agent completed", "duration": 1.07}
+{"timestamp": "2026-06-19T12:31:46.601803+00:00", "agent": "Incident Agent", "level": "INFO", "message": "Incident Agent started", "query": "Suspicious insider activity & data theft"}
+{"timestamp": "2026-06-19T12:32:07.222833+00:00", "agent": "Incident Agent", "level": "INFO", "message": "Incident Agent completed", "duration": 20.62}
+{"timestamp": "2026-06-19T12:32:07.224354+00:00", "agent": "Root Cause Agent", "level": "INFO", "message": "Root Cause Agent started", "query": "Suspicious insider activity & data theft"}
+{"timestamp": "2026-06-19T12:32:27.577968+00:00", "agent": "Root Cause Agent", "level": "INFO", "message": "Root Cause Agent completed", "duration": 20.35}
+{"timestamp": "2026-06-19T12:32:27.579465+00:00", "agent": "Risk Agent", "level": "INFO", "message": "Risk Agent started", "query": "Suspicious insider activity & data theft"}
+{"timestamp": "2026-06-19T12:32:51.128260+00:00", "agent": "Risk Agent", "level": "INFO", "message": "Risk Agent completed", "duration": 23.55}
+{"timestamp": "2026-06-19T12:32:51.129909+00:00", "agent": "Reviewer Agent", "level": "INFO", "message": "Reviewer Agent started", "query": "Suspicious insider activity & data theft"}
+{"timestamp": "2026-06-19T12:33:15.768340+00:00", "agent": "Reviewer Agent", "level": "INFO", "message": "Reviewer Agent completed", "duration": 24.64}
+{"timestamp": "2026-06-19T12:33:15.770901+00:00", "agent": "Report Writer Agent", "level": "INFO", "message": "Report Writer Agent started", "query": "Suspicious insider activity & data theft"}
+{"timestamp": "2026-06-19T12:33:56.939399+00:00", "agent": "Report Writer Agent", "level": "INFO", "message": "Report Writer Agent completed", "duration": 41.17}
+{"timestamp": "2026-06-19T13:38:18.445970+00:00", "agent": "Research Agent", "level": "INFO", "message": "Research Agent started", "query": "Privilege escalation & unauthorized accounts"}
+{"timestamp": "2026-06-19T13:38:20.285531+00:00", "agent": "Research Agent", "level": "INFO", "message": "Research Agent completed", "duration": 1.84}
+{"timestamp": "2026-06-19T13:38:20.286843+00:00", "agent": "Incident Agent", "level": "INFO", "message": "Incident Agent started", "query": "Privilege escalation & unauthorized accounts"}
+{"timestamp": "2026-06-19T13:38:41.089512+00:00", "agent": "Incident Agent", "level": "INFO", "message": "Incident Agent completed", "duration": 20.8}
+{"timestamp": "2026-06-19T13:38:41.240070+00:00", "agent": "Root Cause Agent", "level": "INFO", "message": "Root Cause Agent started", "query": "Privilege escalation & unauthorized accounts"}
+{"timestamp": "2026-06-19T13:39:04.120285+00:00", "agent": "Root Cause Agent", "level": "INFO", "message": "Root Cause Agent completed", "duration": 22.88}
+{"timestamp": "2026-06-19T13:39:04.184513+00:00", "agent": "Risk Agent", "level": "INFO", "message": "Risk Agent started", "query": "Privilege escalation & unauthorized accounts"}
+{"timestamp": "2026-06-19T13:39:26.116674+00:00", "agent": "Risk Agent", "level": "INFO", "message": "Risk Agent completed", "duration": 21.93}
+{"timestamp": "2026-06-19T13:39:26.118178+00:00", "agent": "Reviewer Agent", "level": "INFO", "message": "Reviewer Agent started", "query": "Privilege escalation & unauthorized accounts"}
+{"timestamp": "2026-06-19T13:39:50.582737+00:00", "agent": "Reviewer Agent", "level": "INFO", "message": "Reviewer Agent completed", "duration": 24.46}
+{"timestamp": "2026-06-19T13:39:50.586052+00:00", "agent": "Report Writer Agent", "level": "INFO", "message": "Report Writer Agent started", "query": "Privilege escalation & unauthorized accounts"}
+{"timestamp": "2026-06-19T13:40:27.492171+00:00", "agent": "Report Writer Agent", "level": "INFO", "message": "Report Writer Agent completed", "duration": 36.91}
